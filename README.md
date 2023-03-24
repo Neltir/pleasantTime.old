@@ -5,7 +5,8 @@ une plateforme qui regroupe des amis et leur propose des activités à faire en 
 --------------------
 Description
 
-Les utilisateurs qui possèdent un compte peuvent rejoindre ou créer des groupes "d'amis" et intégrer l'espace du groupe avec un tchat et des propositions d'activitées retenues par le groupe
+
+Les utilisateurs qui possèdent un compte peuvent rejoindre ou créer des groupes "d'amis" et intégrer l'espace du groupe avec un tchat et des propositions d'activitées retenues par le groupe.
 Ils peuvent choisir de swiper pour trier les activitées qui les interessent ou non. 
 La plateforme synthétise les réponses des membres du groupe et propose des activitées à faire qui sont retenues ou pourraient les intéresser.
 
@@ -18,7 +19,10 @@ Une fois le planning mis à jour, les membres peuvent rentrer leur disponibilit�
 
 --------------------
 Futur
+
+
 Possible monétisation par proposition d'activitées publicitaires qui peuvent être liées à la localisation
+
 
 Par Jessica Dubouchaud, Développeuse junior
 Le 24/03/2023
