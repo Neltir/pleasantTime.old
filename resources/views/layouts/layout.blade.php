@@ -13,6 +13,7 @@
     <title>Pleasant Time</title>
 </head>
 <body>
+    <div id="circle"></div>
     <header>
     <!-- Navbar -->
     <nav id="navbarTop">
@@ -22,7 +23,7 @@
         <div id="navbarTopRight">
             <div id="navbarTopRightInner">
                 <a href="/connexion">Se connecter</a>
-                <img src="{{ asset('img/profil.png') }}" alt="icone profil">
+                <a href="/connexion"><img src="{{ asset('img/profil.png') }}" alt="icone profil"></a>
             </div>
         </div>
     </nav>

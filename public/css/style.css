@@ -1,7 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Yeseva+One&display=swap');
 body{
     background-color: #ede2f0;
     color: #400a4c;
     margin: 0;
+}
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1, h2, h3, h4{
+    font-family: 'Yeseva One', cursive;
+    letter-spacing: 1px;
+}
+#circle{
+    clip-path: circle(45% at 20% 0);
+    background-color: #b39cb8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80vw;
+    height: 50vw;
+    z-index: 1;
+    opacity: 0.5;
+}
+#circle2{
+    clip-path: circle(47.1% at 89% 50%);
+    background-color: #b39cb8;
+    position: absolute;
+    top: 20vw;
+    right: 0;
+    width: 20vw;
+    height: 40vw;
+    z-index: 2;
+    opacity: 0.5;
+}
+* :not(#circle,#circle2){
+    z-index: 99;
 }
 #navbarTop{
     display: flex;
@@ -43,6 +76,11 @@ body{
     width: 2vw;
     padding: 0 1vw;
 }
+#navbarBot{
+    width: 100%;
+    background-color: #b39cb8;
+    padding: 0.5vw 0;
+}
 #navbarBot ul{
     display: flex;
     justify-content: space-evenly;
@@ -55,17 +93,15 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1.5vw;
 }
 #firstBloc > div{
     width: 40vw;
     display: flex;
     justify-content: center;
 }
-#firstBloc ~ div{
-    height: 30vh;
-}
 #firstBloc img{
-    width: 40vw;
+    height: 40vw;
 }
 #blocPresentation{
     display: flex;
@@ -85,7 +121,7 @@ ul{
     text-align: center;
     padding: 1.2vw 0;
     margin: 0;
-    font-size: 1.2vw;
+    font-size: 1.6vw;
     box-shadow: rgba(64, 10, 76, 0.35) 0px 25px 20px -20px;
 }
 #blocPresentation ul{
@@ -97,8 +133,8 @@ ul{
     text-align: center;
 }
 #blocPresentation ul li{
-    padding: 0.2vw 0;
-    font-size: 1.2vw;
+    padding: 0.5vw 0;
+    font-size: 1vw;
 }
 #blocPresentation a{
     padding: 0.5vw 1vw;
@@ -113,9 +149,11 @@ ul{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding: 1.5vw;
+    height: 20vw;
 }
 #secondBloc img{
-    width: 10vw;
+    width: 12vw;
 }
 #secondBloc > div{
     display: flex;
