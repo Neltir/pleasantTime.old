@@ -18,7 +18,7 @@
     <!-- Navbar -->
     <nav id="navbarTop">
         <div id="navbarTitle">
-            <a href="/"><h1>Pleasant Time</h1></a>
+            <a href="{{ route('accueil') }}"><h1>Pleasant Time</h1></a>
         </div>
         <div id="navbarTopRight">
             <div id="navbarTopRightInner">
@@ -36,8 +36,8 @@
     <!-- Mentions légales, cookies et contact -->
         <nav id="navbarBot">
             <ul>
-                <li><a href="/mentions">Mentions légales</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="{{ route('mentions') }}">Mentions légales</a></li>
+                <li><a href="{{ route('contact') }}">Contact</a></li>
             </ul>
         </nav>
     </footer>

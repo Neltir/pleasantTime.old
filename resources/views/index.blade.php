@@ -1,4 +1,4 @@
-@extends('/layouts/layout')
+@extends('layouts.visiteur')
 @section('content')
     <div id="firstBloc">
         <div>

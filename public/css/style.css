@@ -34,6 +34,7 @@ h1, h2, h3, h4{
     opacity: 0.5;
 }
 * :not(#circle,#circle2){
+    position: relative;
     z-index: 99;
 }
 #navbarTop{

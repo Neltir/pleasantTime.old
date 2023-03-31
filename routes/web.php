@@ -1,23 +1,13 @@
 <?php
 
-use App\Http\Controllers\userController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\IndexController;
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', [UserController::class, 'index'])->name('accueil');
+Route::get('/mentions', [UserController::class, 'mentions'])->name('mentions');
+Route::get('/contact', [UserController::class, 'contact'])->name('contact');
 
-Route::get('/connexion', function () {
-    return view('connexion');
-});
-Route::get('/connexion/user', [userController::class , 'coucou']);
-
-Route::get('/mentions', function () {
-    return view('mentions');
-});
-Route::get('/contact', function () {
-    return view('contact');
-});
 Route::get('/profil', function () {
     return view('profil');
 });
